@@ -11,20 +11,20 @@ But first, install python and ollama
 
 ## *Linux (Change depending on distro)*
 
-'''
+```
 sudo dnf install python
 sudo dnf install ollama
 
 pip install speech_recognition, pyttsx3, ollama
-'''
+```
 
 ## *Windows*
 
 For windows, you will have to install Ollama from the official website: https://ollama.com
 If you already have Python installed, these are the last steps you'll have to complete:
-'''
+```
 pip install speech_recognition, pyttsx3, ollama
-'''
+```
 
 # How to customize the AI
 
@@ -35,12 +35,12 @@ again also showcased on the Ollama website https://ollama.com
 
 After you have changed the Modelfile to your likings, you have to run these commands
 in order to create your own "model"
-'''
+```
 ollama create choose-a-model-name -f <location of the file e.g. ./Modelfile>'
-'''
+```
 and to verify it has worked, you can run
-'''
+```
 ollama run choose-a-model-name
-'''
+```
 
 Further instructions on this can be found here: https://github.com/ollama/ollama/tree/main/docs
